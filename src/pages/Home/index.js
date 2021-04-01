@@ -10,10 +10,13 @@ import styles from './style';
 
 export default () => {
 	const dispatch = useDispatch();
-	const videos = useSelector(state => videos(state));
-	const isLoading = useSelector(state => isLoading(state));
+	console.log(dispatch);
+	const videos = useSelector((state) => videos(state));
 	console.log(videos);
-  const classes = styles();
+	const isLoading = useSelector((state) => isLoading(state));
+	
+  
+	const classes = styles();
 
 	const renderVideoCard = () => {
 		dispatch(selectQuiz());

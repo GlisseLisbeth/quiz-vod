@@ -1,4 +1,3 @@
-import { get } from 'lodash';
 import {
   SELECT_QUIZ_START,
   SELECT_QUIZ_ERROR,
