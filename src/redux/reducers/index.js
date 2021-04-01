@@ -1,8 +1,8 @@
 import { combineReducers } from 'redux';
-import demoReducer from './demoReducer';
+import select from './select';
 
 const rootReducer = combineReducers({
-	demoReducer
+	select
 });
 
 export default rootReducer;
